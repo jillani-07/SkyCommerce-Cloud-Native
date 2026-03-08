@@ -46,3 +46,4 @@ mongoose.connect(MONGO_URI)
         app.listen(PORT, () => console.log(`Backend running on port ${PORT}`));
     })
     .catch(err => console.log("DB Connection Error:", err));
+
